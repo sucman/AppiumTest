@@ -1,7 +1,8 @@
 # -*- coding:utf-8 -*-
-import unittest
-from appium import webdriver
 import time
+import unittest
+
+from appium import webdriver
 
 
 class Calculator(unittest.TestCase):
@@ -23,6 +24,7 @@ class Calculator(unittest.TestCase):
 
     @classmethod
     def test_calculation(self):
+
         self.driver.find_element_by_id("digit_1").click()
         self.driver.find_element_by_id("op_add").click()
         self.driver.find_element_by_id("digit_9").click()
@@ -33,6 +35,7 @@ class Calculator(unittest.TestCase):
     @classmethod
     def tearDown(self):
         self.driver.quit()
+
 
 if __name__ == '__main__':
     unittest.main()

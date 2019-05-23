@@ -1,7 +1,9 @@
 # -*- coding:utf-8 -*-
-import unittest
-from appium import webdriver
 import time
+import unittest
+
+from appium import webdriver
+
 
 class Chrome(unittest.TestCase):
     @classmethod
@@ -13,8 +15,8 @@ class Chrome(unittest.TestCase):
             "appPackage": "com.android.chrome",
             "appActivity": "com.google.android.apps.chrome.Main",
             # "app":"C:\\Users\\shuchengxiang\\Desktop\\shoujibaidu_25580288.apk",
-            "unicodeKeyboard": True, #此两行是为了解决字符输入不正确的问题
-            "resetKeyboard": True    #运行完成后重置软键盘的状态　
+            "unicodeKeyboard": True,  # 此两行是为了解决字符输入不正确的问题
+            "resetKeyboard": True  # 运行完成后重置软键盘的状态　
         }
 
         self.driver = webdriver.Remote("http://localhost:4723/wd/hub", chr)  # 启动app
@@ -22,7 +24,6 @@ class Chrome(unittest.TestCase):
 
     @classmethod
     def test_search(self):
-
         self.driver.find_element_by_id("terms_accept").click()
         self.driver.find_element_by_id("negative_button").click()
         self.driver.find_element_by_id("search_box_text").click()
