@@ -8,7 +8,7 @@ import pymysql
 from AppTest.tf.com.control import config
 
 
-def get_info(db_database, db_key, db_value):
+def get_info(db_exc, db_database, db_key, db_value, db_time):
     try:
         db = pymysql.connect(host=config.DB_HOST, port=config.DB_PORT, user=config.DB_USER, password=config.DB_PWD,
                              db=config.DB_DATABASE, charset='utf8')
@@ -16,13 +16,15 @@ def get_info(db_database, db_key, db_value):
         logging.error("connect da error:%s" % dberr)
         return
     cu = db.cursor()
+    cu.execute("SELECT %s FROM %s a WHERE a.%s='%s' ORDER BY %s DESC LIMIT 1" % (
+        db_exc, db_database, db_key, db_value, db_time))
 
-    cu.execute("SELECT * FROM %s a WHERE a.%s=%s ORDER BY GMT_CREATE DESC LIMIT 1", db_database, db_key, db_value)
     result = cu.fetchall()
-
-    db.close()
-    return result
-
-
-get_info("mns.t_notify_msg", "APP_ID", "SMSG")
-print(get_info())
+    try:
+        result = list(result[0])
+        excresult = " ".join(result)
+    except Exception as e:
+        logging.error("select errror:%s" % e)
+    finally:
+        db.close()
+        return excresult

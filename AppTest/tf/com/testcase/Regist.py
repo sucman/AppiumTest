@@ -4,7 +4,7 @@ import unittest
 import warnings
 
 from AppTest.tf.com.control import config
-from AppTest.tf.com.control import getDb
+from AppTest.tf.com.control import test_db
 from appium import webdriver
 
 
@@ -33,29 +33,42 @@ class Login(unittest.TestCase):
 
         self.driver.find_element_by_id("loginBtn").click()
 
-        self.driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.TextView").click()
+        # 登录页跳注册
+        self.driver.find_element_by_xpath(
+            "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.TextView").click()
 
-        iptmail = self.driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.EditText")
-        iptmail.send_keys(config.REG_MAIL)
+        # 输入注册邮箱
+        iptidentityId = self.driver.find_element_by_id("identityId")
+        iptidentityId.send_keys(config.REG_MAIL)
 
-        self.driver.find_element_by_xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.TextView").click()
+        # 发送验证码
+        self.driver.find_element_by_id("downTimerText").click()
 
+        time.sleep(3)
 
-        iptsms = self.driver.find_element_by_id("verifyCode")
-        smscode = getDb.get_info("MNS","APP_ID","SMSG")
-        iptsms.send_keys(smscode)
+        # 输入验证码
+        iptverifyCode = self.driver.find_element_by_id("verifyCode")
+        result = test_db.get_info("CONTENT", "mns.t_notify_msg", "APP_ID", "SMSG", "GMT_CREATE")
+        smscode = result[-6:]
+        iptverifyCode.send_keys(smscode)
 
-        iptpwd = self.driver.find_element_by_id("loginPasswd")
-        iptpwd.send_keys(config.REG_PWD)
+        # 输入密码
+        iptloginPasswd = self.driver.find_element_by_id("loginPasswd")
+        iptloginPasswd.send_keys(config.REG_PWD)
 
-        iptname = self.driver.find_element_by_id("loginName")
-        iptname.send_keys(config.REG_NAME)
+        # 输入昵称
+        iptloginName = self.driver.find_element_by_id("loginName")
+        iptloginName.send_keys(config.REG_NAME)
 
+        # 输入邀请码
+        iptinvitationCode = self.driver.find_element_by_id("invitationCode")
+        result = test_db.get_info("INVITATION_CODE", "member.tm_member", "MEMBER_NAME", "testx", "CREATE_TIME")
+        iptinvitationCode.send_keys(result)
 
+        # 点击注册
+        self.driver.find_element_by_id("register").click()
 
-        self.driver.find_element_by_id("loginBtn").click()
-
-        time.sleep(30)
+        time.sleep(10)
 
     @classmethod
     def tearDown(self):

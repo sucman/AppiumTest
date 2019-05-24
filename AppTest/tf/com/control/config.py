@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-from AppTest.tf.com.control import getRandom
+from AppTest.tf.com.control import test_getRandom
 
 """
 登录用户
@@ -8,15 +8,13 @@ from AppTest.tf.com.control import getRandom
 LOG_MAIL = "xiangyb1@tigerft.com"
 LOG_PWD = "qweqwe123"
 
-
 '''
 注册用
 '''
-a = getRandom.ranstr(9)
-REG_MAIL =  a + "@tf.com"
+a = test_getRandom.ranstr(9)
+REG_MAIL = a + "@tf.com"
 REG_PWD = "qweqwe123"
 REG_NAME = a
-
 
 '''
 DB
@@ -27,6 +25,4 @@ DB_PWD = "reader"
 DB_DATABASE = ""
 DB_TABLE = ""
 DB_PORT = 3306
-
-
 

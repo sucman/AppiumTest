@@ -1,41 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa402568-576c-4b12-b4c5-aa7297c48d4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AppTest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/tf/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/tf/com/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/tf/com/control/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/tf/com/control/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/tf/com/control/getDb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/tf/com/control/getRandom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/tf/com/testcase/Login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/tf/com/testcase/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/tf/com/testdata/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/appiumTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/appiumTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fa402568-576c-4b12-b4c5-aa7297c48d4a" name="Default Changelist" comment="UPDATE 20190523">
+      <change afterPath="$PROJECT_DIR$/AppTest/tf/com/control/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppTest/tf/com/control/test_asset.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/tf/com/testcase/Calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/tf/com/testcase/Chrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/tf/com/testcase/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/UserDict.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/UserDict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/_abcoll.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/_abcoll.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/abc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/abc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/codecs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/codecs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/copy_reg.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/copy_reg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/fnmatch.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/fnmatch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/linecache.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/linecache.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/locale.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/locale.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/ntpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/ntpath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/os.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/os.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/re.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/re.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/sre.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/sre.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/stat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/stat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/types.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/warnings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/warnings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppTest/tf/com/control/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/tf/com/control/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppTest/tf/com/control/getDb.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/tf/com/control/test_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppTest/tf/com/control/getRandom.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/tf/com/control/test_getRandom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +23,9 @@
     <SUITE FILE_PATH="coverage/AppiumTest$Unittests_for_Login_Login.coverage" NAME="Unittests for Login.Login Coverage Results" MODIFIED="1558596998928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/appiumTest$Unittests_in_Chrome1_py.coverage" NAME="Unittests in Chrome.py Coverage Results" MODIFIED="1552645928268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/appiumTest$Calculator.coverage" NAME="Calculator Coverage Results" MODIFIED="1552641344194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AppiumTest$getDb.coverage" NAME="getDb Coverage Results" MODIFIED="1558609298185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/tf/com/control" />
+    <SUITE FILE_PATH="coverage/AppiumTest$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1558667803397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/tf/com/control" />
+    <SUITE FILE_PATH="coverage/AppiumTest$getDb.coverage" NAME="getDb Coverage Results" MODIFIED="1558665898618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/tf/com/control" />
+    <SUITE FILE_PATH="coverage/AppiumTest$Unittests_in_Regist_py.coverage" NAME="Unittests in Regist.py Coverage Results" MODIFIED="1558670829407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/tf/com/testcase" />
     <SUITE FILE_PATH="coverage/AppiumTest$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1558603441886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/tf/com/control" />
     <SUITE FILE_PATH="coverage/AppiumTest$config.coverage" NAME="config Coverage Results" MODIFIED="1558603623152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/tf/com/control" />
     <SUITE FILE_PATH="coverage/appiumTest$Chrome.coverage" NAME="Chrome Coverage Results" MODIFIED="1552640895699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -141,24 +116,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="10" />
-          <entry key="py" value="1040" />
+          <entry key="dummy" value="28" />
+          <entry key="py" value="1767" />
+          <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="1040" />
+          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="Python" value="1767" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
+          <entry key="py" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="8" />
+          <entry key="Python" value="11" />
         </counts>
       </usages-collector>
     </session>
@@ -181,26 +157,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/getRandom.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="55" />
+            <state relative-caret-position="363">
+              <caret line="59" column="66" lean-forward="true" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
               <folding>
                 <element signature="e#23#34#0" expanded="true" />
               </folding>
@@ -208,13 +175,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/getDb.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test_asset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="399">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding>
+                <element signature="e#31#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test_db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
               <folding>
                 <element signature="e#34#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+              <folding>
+                <element signature="e#23#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -264,12 +255,14 @@
         <option value="$PROJECT_DIR$/AppTest/qweqweqw.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/AppTest/test.py" />
-        <option value="$PROJECT_DIR$/AppTest/tf/com/control/test.py" />
-        <option value="$PROJECT_DIR$/AppTest/tf/com/control/getRandom.py" />
         <option value="$PROJECT_DIR$/AppTest/tf/com/testcase/Login.py" />
-        <option value="$PROJECT_DIR$/AppTest/tf/com/control/config.py" />
-        <option value="$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py" />
+        <option value="$PROJECT_DIR$/AppTest/tf/com/control/test.py" />
         <option value="$PROJECT_DIR$/AppTest/tf/com/control/getDb.py" />
+        <option value="$PROJECT_DIR$/AppTest/tf/com/control/test_asset.py" />
+        <option value="$PROJECT_DIR$/AppTest/tf/com/control/getRandom.py" />
+        <option value="$PROJECT_DIR$/AppTest/tf/com/control/config.py" />
+        <option value="$PROJECT_DIR$/AppTest/tf/com/control/test_db.py" />
+        <option value="$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py" />
       </list>
     </option>
   </component>
@@ -291,7 +284,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="613" />
+    <option name="x" value="636" />
     <option name="y" value="151" />
     <option name="width" value="1035" />
     <option name="height" value="746" />
@@ -386,7 +379,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.getDb">
+  <component name="RunManager" selected="Python tests.Unittests in Regist.py">
     <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="appiumTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -422,7 +415,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AppTest/tf/com/control/getDb.py" />
+      <option name="SCRIPT_NAME" value="E:\Python 3.0\PycharmProjects\AppiumTest\AppTest\tf\com\control\test_db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -444,7 +437,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Python 3.0\PycharmProjects\AppiumTest\AppTest\tf\com\control\getRandom.py" />
+      <option name="SCRIPT_NAME" value="E:\Python 3.0\PycharmProjects\AppiumTest\AppTest\tf\com\control\test_getRandom.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -453,7 +446,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="appiumTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -461,12 +454,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppTest/tf/com/control" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Python 3.0\PycharmProjects\AppiumTest\AppTest\tf\com\control\getRandom.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AppTest/tf/com/control/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -490,35 +483,35 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in Login.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in Regist.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="appiumTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppTest/tf/com/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/AppTest/tf/com/testcase/Login.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in Login.py" />
       <item itemvalue="Python.config" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.getDb" />
+      <item itemvalue="Python.test (2)" />
+      <item itemvalue="Python tests.Unittests in Regist.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in Regist.py" />
+        <item itemvalue="Python.test (2)" />
         <item itemvalue="Python.getDb" />
         <item itemvalue="Python.config" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python tests.Unittests in Login.py" />
       </list>
     </recent_temporary>
   </component>
@@ -547,39 +540,46 @@
       <option name="project" value="LOCAL" />
       <updated>1554280499510</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="UPDATE 20190523">
+      <created>1558609567544</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558609567544</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_Login_Login_test_calculation - 2019.05.23 at 16h 36m 45s.xml">
-      <configuration name="Unittests for Login.Login.test_calculation" configurationId="tests" />
+    <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 11h 04m 07s.xml">
+      <configuration name="Unittests in Regist.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_qweqweqw_py - 2019.05.23 at 16h 38m 31s.xml">
-      <configuration name="Unittests in qweqweqw.py" configurationId="tests" />
+    <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 11h 08m 12s.xml">
+      <configuration name="Unittests in Regist.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_qweqweqw_py - 2019.05.23 at 16h 39m 04s.xml">
-      <configuration name="Unittests in qweqweqw.py" configurationId="tests" />
+    <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 11h 10m 58s.xml">
+      <configuration name="Unittests in Regist.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Login_py - 2019.05.23 at 16h 39m 51s.xml">
-      <configuration name="Unittests in Login.py" configurationId="tests" />
+    <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 11h 25m 21s.xml">
+      <configuration name="Unittests in Regist.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Login_py - 2019.05.23 at 16h 47m 13s.xml">
-      <configuration name="Unittests in Login.py" configurationId="tests" />
+    <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 11h 33m 38s.xml">
+      <configuration name="Unittests in Regist.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Login_py - 2019.05.23 at 16h 48m 31s.xml">
-      <configuration name="Unittests in Login.py" configurationId="tests" />
+    <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 11h 53m 39s.xml">
+      <configuration name="Unittests in Regist.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Login_py - 2019.05.23 at 16h 50m 02s.xml">
-      <configuration name="Unittests in Login.py" configurationId="tests" />
+    <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 11h 56m 37s.xml">
+      <configuration name="Unittests in Regist.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Login_py - 2019.05.23 at 16h 51m 59s.xml">
-      <configuration name="Unittests in Login.py" configurationId="tests" />
+    <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 12h 02m 04s.xml">
+      <configuration name="Unittests in Regist.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Login_py - 2019.05.23 at 16h 54m 09s.xml">
-      <configuration name="Unittests in Login.py" configurationId="tests" />
+    <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 12h 06m 10s.xml">
+      <configuration name="Unittests in Regist.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Login_py - 2019.05.23 at 17h 01m 05s.xml">
-      <configuration name="Unittests in Login.py" configurationId="tests" />
+    <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 12h 09m 38s.xml">
+      <configuration name="Unittests in Regist.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -593,14 +593,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3724213" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3724213" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -609,7 +608,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32790446" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32790446" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -621,12 +620,39 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="appium" />
-    <option name="LAST_COMMIT_MESSAGE" value="appium" />
+    <MESSAGE value="UPDATE 20190523" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE 20190523" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
@@ -677,24 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Chrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-          <folding>
-            <element signature="e#23#34#0" expanded="true" />
-            <marker date="1554285257139" expanded="true" signature="153:736" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/getRandom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -706,29 +714,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test_getRandom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Chrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+          <folding>
+            <element signature="e#23#34#0" expanded="true" />
+            <marker date="1554285257139" expanded="true" signature="153:736" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="e#23#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+          <folding>
+            <element signature="e#34#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test_asset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#31#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="55" />
+        <state relative-caret-position="363">
+          <caret line="59" column="66" lean-forward="true" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
           <folding>
             <element signature="e#23#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/getDb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding>
-            <element signature="e#34#48#0" expanded="true" />
           </folding>
         </state>
       </provider>

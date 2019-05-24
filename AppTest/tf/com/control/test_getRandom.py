@@ -1,10 +1,11 @@
 # -*- coding:utf-8 -*-
 """
+获取随机值
 """
 import random
 
-def ranstr(num):
 
+def ranstr(num):
     H = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
 
     salt = ''
@@ -12,9 +13,3 @@ def ranstr(num):
         salt += random.choice(H)
 
     return salt
-
-'''
-salt = ranstr(9)
-print(salt)
-'''
-
