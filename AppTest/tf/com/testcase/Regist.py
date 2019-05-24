@@ -1,4 +1,8 @@
 # -*- coding:utf-8 -*-
+'''
+注册
+'''
+
 import time
 import unittest
 import warnings
@@ -8,7 +12,7 @@ from AppTest.tf.com.control import test_db
 from appium import webdriver
 
 
-class Login(unittest.TestCase):
+class Register(unittest.TestCase):
     @classmethod
     def setUp(self):
         warnings.simplefilter("ignore", ResourceWarning)  # 忽略警告
@@ -28,7 +32,7 @@ class Login(unittest.TestCase):
         time.sleep(5)
 
     @classmethod
-    def test_calculation(self):
+    def test_register(self):
         warnings.simplefilter("ignore", ResourceWarning)  # 忽略警告
 
         self.driver.find_element_by_id("loginBtn").click()
@@ -49,12 +53,12 @@ class Login(unittest.TestCase):
         # 输入验证码
         iptverifyCode = self.driver.find_element_by_id("verifyCode")
         result = test_db.get_info("CONTENT", "mns.t_notify_msg", "APP_ID", "SMSG", "GMT_CREATE")
-        smscode = result[-6:]
-        iptverifyCode.send_keys(smscode)
+        mailcode = result[-6:]
+        iptverifyCode.send_keys(mailcode)
 
         # 输入密码
         iptloginPasswd = self.driver.find_element_by_id("loginPasswd")
-        iptloginPasswd.send_keys(config.REG_PWD)
+        iptloginPasswd.send_keys(config.OLD_PWD)
 
         # 输入昵称
         iptloginName = self.driver.find_element_by_id("loginName")

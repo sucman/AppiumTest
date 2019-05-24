@@ -13,15 +13,16 @@ def get_info(db_exc, db_database, db_key, db_value):
         logging.error("connect da error:%s" % dberr)
         return
     cu = db.cursor()
-
     cu.execute("SELECT %s FROM %s a WHERE a.%s='%s' ORDER BY GMT_CREATE DESC LIMIT 1" % (
         db_exc, db_database, db_key, db_value))
 
     result = cu.fetchall()
+    print(result)
 
     try:
         result = list(result[0])
         a = " ".join(result)
+        print(a)
         b = a[-6:]
         print(b)
     except Exception as e:

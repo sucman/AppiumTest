@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa402568-576c-4b12-b4c5-aa7297c48d4a" name="Default Changelist" comment="UPDATE 20190523">
-      <change afterPath="$PROJECT_DIR$/AppTest/tf/com/control/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppTest/tf/com/control/test_asset.py" afterDir="false" />
+    <list default="true" id="fa402568-576c-4b12-b4c5-aa7297c48d4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AppTest/tf/com/testcase/ForgotPwd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppTest/tf/com/control/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/tf/com/control/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppTest/tf/com/control/getDb.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/tf/com/control/test_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppTest/tf/com/control/getRandom.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/tf/com/control/test_getRandom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppTest/tf/com/control/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/tf/com/control/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppTest/tf/com/testcase/Login.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/tf/com/testcase/Login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +19,11 @@
     <SUITE FILE_PATH="coverage/appiumTest$Unittests_in_test1_py.coverage" NAME="Unittests in Calculator.py Coverage Results" MODIFIED="1552641608590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AppiumTest$Unittests_in_qweqweqw_py.coverage" NAME="Unittests in qweqweqw.py Coverage Results" MODIFIED="1558600719709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest" />
     <SUITE FILE_PATH="coverage/AppiumTest$Unittests_in_login_py.coverage" NAME="Unittests in Login.py Coverage Results" MODIFIED="1558601938851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AppiumTest$Unittests_in_ForgotPwd_py.coverage" NAME="Unittests in ForgotPwd.py Coverage Results" MODIFIED="1558681686154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/tf/com/testcase" />
     <SUITE FILE_PATH="coverage/AppiumTest$Unittests_for_Login_Login.coverage" NAME="Unittests for Login.Login Coverage Results" MODIFIED="1558596998928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/appiumTest$Unittests_in_Chrome1_py.coverage" NAME="Unittests in Chrome.py Coverage Results" MODIFIED="1552645928268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/appiumTest$Calculator.coverage" NAME="Calculator Coverage Results" MODIFIED="1552641344194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AppiumTest$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1558667803397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/tf/com/control" />
+    <SUITE FILE_PATH="coverage/AppiumTest$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1558682084847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/tf/com/control" />
     <SUITE FILE_PATH="coverage/AppiumTest$getDb.coverage" NAME="getDb Coverage Results" MODIFIED="1558665898618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/tf/com/control" />
     <SUITE FILE_PATH="coverage/AppiumTest$Unittests_in_Regist_py.coverage" NAME="Unittests in Regist.py Coverage Results" MODIFIED="1558670829407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/tf/com/testcase" />
     <SUITE FILE_PATH="coverage/AppiumTest$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1558603441886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AppTest/tf/com/control" />
@@ -116,25 +116,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="28" />
-          <entry key="py" value="1767" />
-          <entry key="txt" value="15" />
+          <entry key="dummy" value="34" />
+          <entry key="py" value="2221" />
+          <entry key="txt" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="43" />
-          <entry key="Python" value="1767" />
+          <entry key="PLAIN_TEXT" value="80" />
+          <entry key="Python" value="2221" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="11" />
+          <entry key="py" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="11" />
+          <entry key="Python" value="19" />
         </counts>
       </usages-collector>
     </session>
@@ -142,34 +142,59 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Login.py">
+        <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="95">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="32" column="107" lean-forward="true" selection-start-line="32" selection-start-column="107" selection-end-line="32" selection-end-column="107" />
               <folding>
-                <element signature="e#23#34#0" expanded="true" />
-                <marker date="1558604558848" expanded="true" signature="210:219" ph="..." />
+                <element signature="e#25#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/config.py">
+        <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="247">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <folding>
+                <element signature="e#35#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="59" column="66" lean-forward="true" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
+            <state relative-caret-position="380">
+              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
               <folding>
-                <element signature="e#23#34#0" expanded="true" />
+                <element signature="e#34#45#0" expanded="true" />
+                <marker date="1558680441521" expanded="true" signature="221:230" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/ForgotPwd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+              <folding>
+                <element signature="e#32#43#0" expanded="true" />
+                <marker date="1558681945619" expanded="true" signature="993:2100" ph="..." />
               </folding>
             </state>
           </provider>
@@ -190,8 +215,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test_db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+            <state relative-caret-position="304">
+              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
               <folding>
                 <element signature="e#34#48#0" expanded="true" />
               </folding>
@@ -199,26 +224,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="475">
+              <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
               <folding>
                 <element signature="e#23#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Chrome.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-              <folding>
-                <element signature="e#23#34#0" expanded="true" />
-                <marker date="1554285257139" expanded="true" signature="153:736" ph="..." />
               </folding>
             </state>
           </provider>
@@ -255,14 +267,18 @@
         <option value="$PROJECT_DIR$/AppTest/qweqweqw.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/AppTest/test.py" />
-        <option value="$PROJECT_DIR$/AppTest/tf/com/testcase/Login.py" />
-        <option value="$PROJECT_DIR$/AppTest/tf/com/control/test.py" />
         <option value="$PROJECT_DIR$/AppTest/tf/com/control/getDb.py" />
         <option value="$PROJECT_DIR$/AppTest/tf/com/control/test_asset.py" />
         <option value="$PROJECT_DIR$/AppTest/tf/com/control/getRandom.py" />
-        <option value="$PROJECT_DIR$/AppTest/tf/com/control/config.py" />
+        <option value="$PROJECT_DIR$/AppTest/tf/com/testcase/forgotPwd.py" />
+        <option value="$PROJECT_DIR$/AppTest/tf/com/testcase/login.py" />
+        <option value="$PROJECT_DIR$/AppTest/tf/com/testcase/regist.py" />
         <option value="$PROJECT_DIR$/AppTest/tf/com/control/test_db.py" />
+        <option value="$PROJECT_DIR$/AppTest/tf/com/testcase/ForgotPwd.py" />
+        <option value="$PROJECT_DIR$/AppTest/tf/com/testcase/Login.py" />
         <option value="$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py" />
+        <option value="$PROJECT_DIR$/AppTest/tf/com/control/config.py" />
+        <option value="$PROJECT_DIR$/AppTest/tf/com/control/test.py" />
       </list>
     </option>
   </component>
@@ -348,7 +364,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../txs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -379,7 +395,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in Regist.py">
+  <component name="RunManager" selected="Python.test (2)">
     <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="appiumTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -416,28 +432,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="E:\Python 3.0\PycharmProjects\AppiumTest\AppTest\tf\com\control\test_db.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="appiumTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppTest/tf/com/control" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Python 3.0\PycharmProjects\AppiumTest\AppTest\tf\com\control\test_getRandom.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -483,6 +477,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in ForgotPwd.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="appiumTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AppTest/tf/com/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/AppTest/tf/com/testcase/ForgotPwd.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in Regist.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="appiumTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -500,18 +509,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.config" />
-      <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.getDb" />
       <item itemvalue="Python.test (2)" />
       <item itemvalue="Python tests.Unittests in Regist.py" />
+      <item itemvalue="Python tests.Unittests in ForgotPwd.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in Regist.py" />
         <item itemvalue="Python.test (2)" />
+        <item itemvalue="Python tests.Unittests in ForgotPwd.py" />
+        <item itemvalue="Python tests.Unittests in Regist.py" />
         <item itemvalue="Python.getDb" />
         <item itemvalue="Python.config" />
-        <item itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -547,31 +556,17 @@
       <option name="project" value="LOCAL" />
       <updated>1558609567544</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update 20190524 add register">
+      <created>1558678390036</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558678390036</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 11h 04m 07s.xml">
-      <configuration name="Unittests in Regist.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 11h 08m 12s.xml">
-      <configuration name="Unittests in Regist.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 11h 10m 58s.xml">
-      <configuration name="Unittests in Regist.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 11h 25m 21s.xml">
-      <configuration name="Unittests in Regist.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 11h 33m 38s.xml">
-      <configuration name="Unittests in Regist.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 11h 53m 39s.xml">
-      <configuration name="Unittests in Regist.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 11h 56m 37s.xml">
-      <configuration name="Unittests in Regist.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 12h 02m 04s.xml">
       <configuration name="Unittests in Regist.py" configurationId="tests" />
     </history-entry>
@@ -580,6 +575,27 @@
     </history-entry>
     <history-entry file="Unittests_in_Regist_py - 2019.05.24 at 12h 09m 38s.xml">
       <configuration name="Unittests in Regist.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ForgotPwd_py - 2019.05.24 at 14h 52m 04s.xml">
+      <configuration name="Unittests in ForgotPwd.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ForgotPwd_py - 2019.05.24 at 14h 53m 07s.xml">
+      <configuration name="Unittests in ForgotPwd.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ForgotPwd_py - 2019.05.24 at 14h 54m 44s.xml">
+      <configuration name="Unittests in ForgotPwd.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ForgotPwd_py - 2019.05.24 at 15h 00m 19s.xml">
+      <configuration name="Unittests in ForgotPwd.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ForgotPwd_py - 2019.05.24 at 15h 04m 02s.xml">
+      <configuration name="Unittests in ForgotPwd.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ForgotPwd_py - 2019.05.24 at 15h 07m 48s.xml">
+      <configuration name="Unittests in ForgotPwd.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ForgotPwd_py - 2019.05.24 at 15h 10m 03s.xml">
+      <configuration name="Unittests in ForgotPwd.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -593,13 +609,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3724213" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3724213" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -608,7 +625,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32790446" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32790446" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -652,7 +669,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="appium" />
     <MESSAGE value="UPDATE 20190523" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE 20190523" />
+    <MESSAGE value="update 20190524 add register" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 20190524 add register" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
@@ -664,23 +682,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/login.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="456" column="8" selection-start-line="456" selection-start-column="8" selection-end-line="456" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="e#25#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Calculator.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -703,17 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-          <folding>
-            <element signature="e#23#34#0" expanded="true" />
-            <marker date="1558604558848" expanded="true" signature="210:219" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test_getRandom.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -721,38 +711,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/config.py">
+    <entry file="file://$PROJECT_DIR$/../../Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Chrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-          <folding>
-            <element signature="e#23#34#0" expanded="true" />
-            <marker date="1554285257139" expanded="true" signature="153:736" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding>
-            <element signature="e#23#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="166">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test_db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        <state relative-caret-position="304">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
           <folding>
             <element signature="e#34#48#0" expanded="true" />
           </folding>
@@ -769,12 +738,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/ForgotPwd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+          <folding>
+            <element signature="e#32#43#0" expanded="true" />
+            <marker date="1558681945619" expanded="true" signature="993:2100" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="e#34#45#0" expanded="true" />
+            <marker date="1558680441521" expanded="true" signature="221:230" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="59" column="66" lean-forward="true" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
+        <state relative-caret-position="247">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="e#35#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="32" column="107" lean-forward="true" selection-start-line="32" selection-start-column="107" selection-end-line="32" selection-end-column="107" />
+          <folding>
+            <element signature="e#25#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Chrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
           <folding>
             <element signature="e#23#34#0" expanded="true" />
+            <marker date="1554285257139" expanded="true" signature="153:736" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+          <folding>
+            <element signature="e#23#37#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,4 +1,7 @@
 # -*- coding:utf-8 -*-
+'''
+登录
+'''
 import time
 import unittest
 import warnings
@@ -7,7 +10,7 @@ from AppTest.tf.com.control import config
 from appium import webdriver
 
 
-class Login(unittest.TestCase):
+class login(unittest.TestCase):
     @classmethod
     def setUp(self):
         warnings.simplefilter("ignore", ResourceWarning)  # 忽略警告
@@ -27,7 +30,7 @@ class Login(unittest.TestCase):
         time.sleep(5)
 
     @classmethod
-    def test_calculation(self):
+    def test_login(self):
         warnings.simplefilter("ignore", ResourceWarning)  # 忽略警告
 
         self.driver.find_element_by_id("loginBtn").click()
@@ -36,7 +39,7 @@ class Login(unittest.TestCase):
         iptmail.send_keys(config.LOG_MAIL)
 
         iptpwd = self.driver.find_element_by_id("password")
-        iptpwd.send_keys(config.LOG_PWD)
+        iptpwd.send_keys(config.OLD_PWD)
 
         self.driver.find_element_by_id("loginBtn").click()
 
