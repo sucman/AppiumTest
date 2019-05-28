@@ -5,7 +5,7 @@ from AppTest.tf.com.control import test_getRandom
 """
 用户
 """
-LOG_MAIL = "xiangyb1@tigerft.com"
+LOG_MAIL = "xybtest7@tf.com"
 
 a = test_getRandom.ranstr(9)
 REG_MAIL = a + "@tf.com"
