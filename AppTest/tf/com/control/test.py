@@ -1,34 +1,49 @@
 # -*- coding:utf-8 -*-
+"""
+购买usdt
+"""
+
 import logging
+import time
+import unittest
+import warnings
 
-import pymysql
-from AppTest.tf.com.control import config
+from AppTest.tf.com.control import test_db
+from appium import webdriver
 
 
-def get_info(db_exc, db_database, db_key, db_value):
-    try:
-        db = pymysql.connect(host=config.DB_HOST, port=config.DB_PORT, user=config.DB_USER, password=config.DB_PWD,
-                             db=config.DB_DATABASE, charset='utf8')
-    except Exception as dberr:
-        logging.error("connect da error:%s" % dberr)
-        return
-    cu = db.cursor()
-    cu.execute("SELECT %s FROM %s a WHERE a.%s='%s' ORDER BY GMT_CREATE DESC LIMIT 1" % (
-        db_exc, db_database, db_key, db_value))
+class Trade(unittest.TestCase):
 
-    result = cu.fetchall()
-    print(result)
+    @classmethod
+    def setUp(self):
+        warnings.simplefilter("ignore", ResourceWarning)  # 忽略警告
 
-    try:
-        result = list(result[0])
-        a = " ".join(result)
-        print(a)
-        b = a[-6:]
-        print(b)
-    except Exception as e:
-        logging.error("select errror:%s" % e)
-    finally:
-        db.close()
-        return b
+        cal = {
+            "platformName": "Android",  # 设备平台
+            "deviceName": "b43d2c1",  # 设备名称
+            "platformVersion": "6.0.1",  # 设备系统版本
+            "appPackage": "com.viausd.pay",  # 包名
+            "appActivity": "com.viausd.activity.MainActivity",  # 启动项
+            # "app":"C:\\Users\\shuchengxiang\\Desktop\\shoujibaidu_25580288.apk",#apk包路径
+            "unicodeKeyboard": True,  # 此两行是为了解决字符输入不正确的问题
+            "resetKeyboard": True  # 运行完成后重置软键盘的状态　
+        }
 
-get_info("CONTENT", "mns.t_notify_msg", "APP_ID", "SMSG")
+        self.driver = webdriver.Remote('http://localhost:4723/wd/hub', cal)  # 启动app
+        time.sleep(5)
+
+    @classmethod
+    def test_something(self):
+        warnings.simplefilter("ignore", ResourceWarning)  # 忽略警告
+
+        a = self.driver.find_element_by_xpath('').text
+        self.driver.find_element_by_xpath('// android.view.View[ @ content - desc = "%s"]', a).click()
+
+
+@classmethod
+def tearDown(self):
+    self.driver.quit()
+
+
+if __name__ == '__main__':
+    unittest.main()
