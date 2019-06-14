@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa402568-576c-4b12-b4c5-aa7297c48d4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AppTest/tf/com/testcase/Trade.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppTest/tf/com/control/driver_configure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppTest/tf/com/report/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppTest/tf/com/control/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/tf/com/control/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppTest/tf/com/control/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/tf/com/control/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppTest/tf/com/control/test_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/tf/com/control/test_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,34 +112,35 @@
     <session id="1051643213">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="34" />
-          <entry key="py" value="4099" />
-          <entry key="txt" value="56" />
+          <entry key="py" value="4276" />
+          <entry key="txt" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="90" />
-          <entry key="Python" value="4099" />
+          <entry key="PLAIN_TEXT" value="91" />
+          <entry key="Python" value="4276" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="29" />
+          <entry key="py" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="29" />
+          <entry key="Python" value="32" />
         </counts>
       </usages-collector>
     </session>
@@ -147,22 +148,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Chrome.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="56" />
-              <folding>
-                <element signature="e#23#34#0" expanded="true" />
-                <marker date="1554285257139" expanded="true" signature="153:736" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
+            <state relative-caret-position="-4">
               <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
               <folding>
                 <element signature="e#35#46#0" expanded="true" />
@@ -174,8 +162,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="37" column="48" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="48" />
+            <state>
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="29" />
               <folding>
                 <element signature="e#34#45#0" expanded="true" />
                 <marker date="1559013942456" expanded="true" signature="221:230" ph="..." />
@@ -185,10 +173,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#32#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/driver_configure.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="83" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
+              <folding>
+                <element signature="e#41#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test_db.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="893">
-              <caret line="47" column="53" lean-forward="true" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+              <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
               <folding>
                 <element signature="e#34#48#0" expanded="true" />
                 <marker date="1559117616750" expanded="true" signature="907:908" ph="..." />
@@ -197,13 +209,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            <state relative-caret-position="1744">
+              <caret line="108" column="26" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
               <folding>
-                <element signature="e#39#53#0" expanded="true" />
+                <element signature="e#143#164#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,11 +224,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/FrameLayout.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="47" selection-end-column="22" />
+            <state relative-caret-position="570">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="47" selection-end-column="22" />
               <folding>
                 <element signature="e#37#48#0" expanded="true" />
-                <marker date="1559030550221" expanded="true" signature="1361:3801" ph="..." />
               </folding>
             </state>
           </provider>
@@ -225,21 +236,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Transfer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-650">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding>
-                <element signature="e#32#43#0" expanded="true" />
-                <marker date="1559031634765" expanded="true" signature="1356:2455" ph="..." />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Trade.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="91" column="100" lean-forward="true" selection-start-line="91" selection-start-column="100" selection-end-line="91" selection-end-column="100" />
+            <state relative-caret-position="667">
+              <caret line="91" column="100" selection-start-line="91" selection-start-column="100" selection-end-line="91" selection-end-column="100" />
               <folding>
                 <element signature="e#39#53#0" expanded="true" />
               </folding>
@@ -295,13 +302,14 @@
         <option value="$PROJECT_DIR$/AppTest/tf/com/testcase/regist.py" />
         <option value="$PROJECT_DIR$/AppTest/tf/com/testcase/ForgotPwd.py" />
         <option value="$PROJECT_DIR$/AppTest/tf/com/testcase/Login.py" />
-        <option value="$PROJECT_DIR$/AppTest/tf/com/control/config.py" />
         <option value="$PROJECT_DIR$/AppTest/tf/com/testcase/FrameLayout.py" />
         <option value="$PROJECT_DIR$/AppTest/tf/com/testcase/Transfer.py" />
         <option value="$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py" />
-        <option value="$PROJECT_DIR$/AppTest/tf/com/control/test.py" />
         <option value="$PROJECT_DIR$/AppTest/tf/com/control/test_db.py" />
         <option value="$PROJECT_DIR$/AppTest/tf/com/testcase/Trade.py" />
+        <option value="$PROJECT_DIR$/AppTest/tf/com/control/config.py" />
+        <option value="$PROJECT_DIR$/AppTest/tf/com/control/driver_configure.py" />
+        <option value="$PROJECT_DIR$/AppTest/tf/com/control/test.py" />
       </list>
     </option>
   </component>
@@ -322,9 +330,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="636" />
-    <option name="y" value="151" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="408" />
+    <option name="y" value="171" />
     <option name="width" value="1035" />
     <option name="height" value="746" />
   </component>
@@ -334,7 +342,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -360,110 +367,11 @@
               <item name="tf" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AppiumTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppiumTest" type="462c0819:PsiDirectoryNode" />
-              <item name="AppTest" type="462c0819:PsiDirectoryNode" />
-              <item name="tf" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="control" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppiumTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AppiumTest" type="462c0819:PsiDirectoryNode" />
-              <item name="AppTest" type="462c0819:PsiDirectoryNode" />
-              <item name="tf" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppiumTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="AppiumTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (txs) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="AppiumTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (txs) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python 3.0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppiumTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (txs) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python 3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppiumTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (txs) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python 3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="AppiumTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppiumTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (txs) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python 3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="AppiumTest" type="462c0819:PsiDirectoryNode" />
-              <item name="AppTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppiumTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (txs) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python 3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="AppiumTest" type="462c0819:PsiDirectoryNode" />
-              <item name="AppTest" type="462c0819:PsiDirectoryNode" />
-              <item name="tf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppiumTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (txs) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python 3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="AppiumTest" type="462c0819:PsiDirectoryNode" />
-              <item name="AppTest" type="462c0819:PsiDirectoryNode" />
-              <item name="tf" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppiumTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (txs) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python 3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="AppiumTest" type="462c0819:PsiDirectoryNode" />
-              <item name="AppTest" type="462c0819:PsiDirectoryNode" />
-              <item name="tf" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="control" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AppiumTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (txs) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python 3.0" type="462c0819:PsiDirectoryNode" />
-              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="AppiumTest" type="462c0819:PsiDirectoryNode" />
-              <item name="AppTest" type="462c0819:PsiDirectoryNode" />
-              <item name="tf" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -471,7 +379,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../txs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -669,7 +577,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559031653248</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update 20190529">
+      <created>1559119063409</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559119063409</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -714,14 +629,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="408" y="171" width="1035" height="746" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14765458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2871795" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3724213" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3724213" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -729,8 +644,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.23127036" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50051284" side_tool="true" weight="0.34860885" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4994872" visible="true" weight="0.34860885" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -738,6 +653,29 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2871795" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3724213" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32790446" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32899022" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50051284" side_tool="true" weight="0.34860885" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4994872" weight="0.34860885" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32899022" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -777,7 +715,8 @@
     <MESSAGE value="update 20190524 add register" />
     <MESSAGE value="update 20190524 add forgotpwd" />
     <MESSAGE value="update 20190528" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 20190528" />
+    <MESSAGE value="update 20190529" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 20190529" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
@@ -814,9 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="715">
           <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-          <folding>
-            <element signature="e#32#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,24 +760,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#23#34#0" expanded="true" />
-            <marker date="1558596378425" expanded="true" signature="157:767" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/config.py">
+    <entry file="file://$PROJECT_DIR$/../txs/venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="362">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Chrome.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="56" />
+        <state relative-caret-position="532">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="56" />
           <folding>
             <element signature="e#23#34#0" expanded="true" />
             <marker date="1554285257139" expanded="true" signature="153:736" ph="..." />
@@ -849,24 +781,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Login.py">
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/FrameLayout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="37" column="48" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="48" />
+        <state relative-caret-position="570">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="47" selection-end-column="22" />
           <folding>
-            <element signature="e#34#45#0" expanded="true" />
-            <marker date="1559013942456" expanded="true" signature="221:230" ph="..." />
+            <element signature="e#37#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/FrameLayout.py">
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Transfer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="47" selection-end-column="22" />
+        <state relative-caret-position="209">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Trade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="91" column="100" selection-start-line="91" selection-start-column="100" selection-end-line="91" selection-end-column="100" />
           <folding>
-            <element signature="e#37#48#0" expanded="true" />
-            <marker date="1559030550221" expanded="true" signature="1361:3801" ph="..." />
+            <element signature="e#39#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -878,41 +815,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Transfer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-650">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="e#32#43#0" expanded="true" />
-            <marker date="1559031634765" expanded="true" signature="1356:2455" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
-          <folding>
-            <element signature="e#35#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-          <folding>
-            <element signature="e#39#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test_db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
-          <caret line="47" column="53" lean-forward="true" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+          <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
           <folding>
             <element signature="e#34#48#0" expanded="true" />
             <marker date="1559117616750" expanded="true" signature="907:908" ph="..." />
@@ -920,19 +826,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../txs/venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/driver_configure.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        <state relative-caret-position="418">
+          <caret line="22" column="83" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
+          <folding>
+            <element signature="e#41#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Trade.py">
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="91" column="100" lean-forward="true" selection-start-line="91" selection-start-column="100" selection-end-line="91" selection-end-column="100" />
+        <state relative-caret-position="447">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="e#39#53#0" expanded="true" />
+            <element signature="e#32#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Regist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+          <folding>
+            <element signature="e#35#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/testcase/Login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#34#45#0" expanded="true" />
+            <marker date="1559013942456" expanded="true" signature="221:230" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppTest/tf/com/control/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1744">
+          <caret line="108" column="26" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
+          <folding>
+            <element signature="e#143#164#0" expanded="true" />
           </folding>
         </state>
       </provider>

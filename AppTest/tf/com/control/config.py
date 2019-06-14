@@ -1,6 +1,10 @@
 # -*- coding:utf-8 -*-
+'''
 
+'''
 from AppTest.tf.com.control import test_getRandom
+import time,os
+
 
 """
 用户
@@ -24,3 +28,4 @@ DB_PWD = "reader"
 DB_DATABASE = ""
 DB_TABLE = ""
 DB_PORT = 3306
+
